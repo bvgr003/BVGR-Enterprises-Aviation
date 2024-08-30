@@ -1,0 +1,26 @@
+body {
+    text-align: center;
+    background-color: darkslategray;
+}
+
+header {
+    background-image: url(https://assets.gulfstream.aero/thedotcom/images/aircraft/g800/v_g800_a_mkt_004_Desktop.jpg);
+    border: 2px solid yellow;
+    border-radius: 10px;
+    height: 650px;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 10px;
+
+}
+
+img {
+    border: 2px solid yellow;
+    border-radius: 10px;
+    height: 500px;
+    width: 800px;
+    object-fit: fill;
+    margin: 50px;
+}
