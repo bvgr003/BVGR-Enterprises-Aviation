@@ -38,3 +38,16 @@ img {
     object-fit: fill;
     margin: 50px;
 }
+
+ img:hover {
+      transform: scale(1.1);
+  }
+
+  img {
+      transition: transform 0.3s ease;
+  }
+
+  .image-container {
+      position: relative;
+      display: inline-block;
+  }
