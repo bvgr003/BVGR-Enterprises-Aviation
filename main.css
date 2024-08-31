@@ -7,7 +7,7 @@ header {
     background-image: url(Logos/BVGR%20Enterprises%20Aviation%20.png);
     border: 2px solid yellow;
     border-radius: 10px;
-    height: 650px;
+    height: 500px;
     max-width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -20,7 +20,7 @@ footer {
     background-image: url(Logos/BVGR%20Enterprises%20Aviation%20.png);
     border: 2px solid yellow;
     border-radius: 10px;
-    height: 650px;
+    height: 500px;
     max-width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -39,15 +39,41 @@ img {
     margin: 50px;
 }
 
- img:hover {
-      transform: scale(1.1);
-  }
+img:hover {
+    transform: scale(1.1);
+}
 
-  img {
-      transition: transform 0.3s ease;
-  }
+img {
+    transition: transform 0.3s ease;
+}
 
-  .image-container {
-      position: relative;
-      display: inline-block;
-  }
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.image-link {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+}
+
+.aircraft-image {
+    width: 80%;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.text-overlay h2 {
+    margin: 0;
+    color: white;
+}
