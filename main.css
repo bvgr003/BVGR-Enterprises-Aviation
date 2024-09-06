@@ -1,6 +1,7 @@
 body {
     text-align: center;
     background-color: darkslategray;
+    padding: 10px;
 }
 
 header {
@@ -76,4 +77,16 @@ img {
 .text-overlay h2 {
     margin: 0;
     color: white;
+}
+
+h2, h3,
+p {
+    font-size: 50px;
+    color: white;
+}
+
+p {
+    font-size: 50px;
+    color: white;
+    text-align: left;
 }
