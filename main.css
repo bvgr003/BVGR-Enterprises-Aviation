@@ -6,7 +6,7 @@ body {
 
 header {
     background-image: url(Logos/BVGR%20Enterprises%20Aviation%20.png);
-    border: 2px solid yellow;
+    border: 2px solid silver;
     border-radius: 10px;
     height: 500px;
     max-width: 100%;
@@ -19,7 +19,7 @@ header {
 
 footer {
     background-image: url(Logos/BVGR%20Enterprises%20Aviation%20.png);
-    border: 2px solid yellow;
+    border: 2px solid silver;
     border-radius: 10px;
     height: 500px;
     max-width: 100%;
@@ -32,7 +32,7 @@ footer {
 
 
 img {
-    border: 2px solid yellow;
+    border: 2px solid silver;
     border-radius: 10px;
     height: 500px;
     width: 800px;
